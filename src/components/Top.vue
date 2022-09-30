@@ -17,7 +17,7 @@ onMounted(() => {
             <a href="https://tw.beanfun.com/lineagefree/index.aspx" class="top-info__link" target="_blank">免費服</a>
             <a href="javascript:;" class="top-info__link top-info__link--game" @click="openSelectType">啟動遊戲</a>
             <a href="https://event.beanfun.com/lineage/Download/Index.aspx" class="top-info__link"
-               target="_blank">下載遊戲</a>
+               target="_blank">不要下載遊戲</a>
         </div>
         <div class="top-info__account" v-if="store.account">
             <span class="top-info__account-icon"></span>
